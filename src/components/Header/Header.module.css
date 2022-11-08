@@ -1,0 +1,9 @@
+.header {
+  min-height: 200px;
+  background: url(../../assets/images/vivood_landscape-hotels_03.jpeg) center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
