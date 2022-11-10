@@ -9,7 +9,7 @@ function Hotel(props) {
         <div>
           <img src={hotelImg} alt="Andalo, Italy" className=" object-cover " />
         </div>
-        <div className="${styles.description} bg-teal-200 p-3 max-w-md">
+        <div className=" bg-teal-200 p-3 max-w-md">
           <div className="flex justify-between mb-3">
             <div className="font-semibold">
               <p>{props.name} </p>

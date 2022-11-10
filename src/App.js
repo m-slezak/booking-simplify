@@ -31,6 +31,7 @@ class App extends Component {
     console.log("szukaj", term);
     const hotels = [...this.hotels].filter((x) => x.includes(term));
     this.setState({ hotels });
+    // przekazane zfunkcji z poziomu nizej
   }
   render() {
     return (
